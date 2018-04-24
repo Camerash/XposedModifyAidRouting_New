@@ -1,8 +1,5 @@
 package at.zweng.xposed;
 
-import static de.robv.android.xposed.XposedHelpers.findAndHookMethod;
-import static de.robv.android.xposed.XposedHelpers.findField;
-
 import java.lang.reflect.Constructor;
 import java.lang.reflect.Field;
 import java.util.ArrayList;
@@ -13,6 +10,9 @@ import de.robv.android.xposed.IXposedHookLoadPackage;
 import de.robv.android.xposed.XC_MethodHook;
 import de.robv.android.xposed.XposedBridge;
 import de.robv.android.xposed.callbacks.XC_LoadPackage.LoadPackageParam;
+
+import static de.robv.android.xposed.XposedHelpers.findAndHookMethod;
+import static de.robv.android.xposed.XposedHelpers.findField;
 
 /**
  * Module for the Xposed framework for rerouting all APDUs
@@ -50,11 +50,11 @@ public class ModNfcAidRouting implements IXposedHookLoadPackage {
 	private static final String SPECIAL_MAGIC_CATCH_ALL_SERVICE_AID = "F04E66E75C02D8";
 
 	/**
-	 * Our method hook for the "resolveAidPrefix" method in
+	 * Our method hook for the "resolveAid" method in
 	 * "RegisteredAidCache.java" (http://goo.gl/ACY97J) where the AID matching
 	 * and routing is performed.
 	 */
-	private final XC_MethodHook resolveAidPrefixHook = new XC_MethodHook() {
+	private final XC_MethodHook resolveAidHook = new XC_MethodHook() {
 
 		@SuppressWarnings({ "rawtypes", "unchecked" })
 		@Override
@@ -67,16 +67,16 @@ public class ModNfcAidRouting implements IXposedHookLoadPackage {
 				if (param.args.length > 0) {
 					aidArg = (String) param.args[0];
 					XposedBridge
-							.log("ModNfcAidRouting: resolveAidPrefix(..) was called. aid = "
+							.log("ModNfcAidRouting: resolveAid(..) was called. aid = "
 									+ aidArg);
 				} else {
 					XposedBridge
-							.log("ModNfcAidRouting: resolveAidPrefix: parameter array seems to be 0-length! Bye.");
+							.log("ModNfcAidRouting: resolveAid: parameter array seems to be 0-length! Bye.");
 					return;
 				}
 				if (aidArg.length() == 0) {
 					XposedBridge
-							.log("ModNfcAidRouting: resolveAidPrefix: parameter 'aid' seems to be 0-length! Bye.");
+							.log("ModNfcAidRouting: resolveAid: parameter 'aid' seems to be 0-length! Bye.");
 					return;
 				}
 
@@ -213,12 +213,12 @@ public class ModNfcAidRouting implements IXposedHookLoadPackage {
 				// Commented out this log statement as Xposed logging is mainly
 				// meant for errors (and this could get logged a lot)
 				// XposedBridge
-				// .log("ModNfcAidRouting: resolveAidPrefix() SUCCESS! Rerouted the AID "
+				// .log("ModNfcAidRouting: resolveAid() SUCCESS! Rerouted the AID "
 				// + aidArg + " to OUR catch-all service! :-)");
 				return;
 			} catch (Exception e) {
 				XposedBridge
-						.log("ModNfcAidRouting: resolveAidPrefix() error in beforeHookedMethod: \n"
+						.log("ModNfcAidRouting: resolveAid() error in beforeHookedMethod: \n"
 								+ e + "\n" + e.getMessage());
 				XposedBridge.log(e);
 			}
@@ -244,14 +244,14 @@ public class ModNfcAidRouting implements IXposedHookLoadPackage {
 		try {
 			findAndHookMethod(
 					"com.android.nfc.cardemulation.RegisteredAidCache",
-					lpparam.classLoader, "resolveAidPrefix", String.class,
-					resolveAidPrefixHook);
+					lpparam.classLoader, "resolveAid", String.class,
+					resolveAidHook);
 			// log succesful hooking! :-)
 			XposedBridge
-					.log("ModNfcAidRouting: resolveAidPrefix() method hook in place! Let the fun begin! :-)");
+					.log("ModNfcAidRouting: resolveAid() method hook in place! Let the fun begin! :-)");
 		} catch (Exception e) {
 			XposedBridge
-					.log("ModNfcAidRouting: could not hook resolveAidPrefix(...). Exception: "
+					.log("ModNfcAidRouting: could not hook resolveAid(...). Exception: "
 							+ e + ", " + e.getMessage());
 			XposedBridge.log(e);
 		}
