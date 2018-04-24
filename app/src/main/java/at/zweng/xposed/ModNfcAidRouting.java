@@ -3,8 +3,8 @@ package at.zweng.xposed;
 import java.lang.reflect.Constructor;
 import java.lang.reflect.Field;
 import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.List;
+import java.util.TreeMap;
 
 import de.robv.android.xposed.IXposedHookLoadPackage;
 import de.robv.android.xposed.XC_MethodHook;
@@ -90,25 +90,25 @@ public class ModNfcAidRouting implements IXposedHookLoadPackage {
 						registeredAidCacheInstance.getClass(), "mAidCache");
 				// this HashMap looks like: HashMap<String,
 				// com.android.nfc.cardemulation.RegisteredAidCache$AidResolveInfo>
-				HashMap mAidCachedHashMap = (HashMap) mAidCacheHashMapField
+				TreeMap mAidCachedTreeMap = (TreeMap) mAidCacheHashMapField
 						.get(registeredAidCacheInstance);
 
-				if (mAidCachedHashMap == null) {
+				if (mAidCachedTreeMap == null) {
 					XposedBridge
 							.log("ModNfcAidRouting: ERROR: the 'mAidCache' HashMap in the 'RegisteredAidCache' instance was null. Bye.");
 					return;
 				}
-				if (mAidCachedHashMap.size() == 0) {
+				if (mAidCachedTreeMap.size() == 0) {
 					XposedBridge
 							.log("ModNfcAidRouting: WARNING: the 'mAidCache' HashMap contains 0 elements. Are you sure you have registered your HostApduService application for an AID?? Bye.");
 					return;
 				}
 
 				// ok, now try to get the entry for our 'special'
-				// AID out of the mAidCache HashMap (the entry will
+				// AID out of the mAidCache TreeMap (the entry will
 				// be an instance of the inner class
 				// "RegisteredAidCache$AidResolveInfo")
-				Object aidResolveInfoObjectOfOurService = mAidCachedHashMap
+				Object aidResolveInfoObjectOfOurService = mAidCachedTreeMap
 						.get(SPECIAL_MAGIC_CATCH_ALL_SERVICE_AID);
 
 				if (aidResolveInfoObjectOfOurService == null) {
