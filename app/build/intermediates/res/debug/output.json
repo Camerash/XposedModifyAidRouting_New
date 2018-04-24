@@ -1,1 +1,1 @@
-[{"outputType":{"type":"PROCESSED_RES"},"apkInfo":{"type":"MAIN","splits":[],"versionCode":14},"path":"resources-debug.ap_","properties":{"packageId":"at.zweng.xposed.modifyaidrouting","split":"","minSdkVersion":"19"}}]
+[{"outputType":{"type":"PROCESSED_RES"},"apkInfo":{"type":"MAIN","splits":[],"versionCode":15},"path":"resources-debug.ap_","properties":{"packageId":"at.zweng.xposed.modifyaidrouting","split":"","minSdkVersion":"19"}}]

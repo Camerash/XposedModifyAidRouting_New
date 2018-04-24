@@ -4,12 +4,12 @@ ADDED from /home/camerash/StudioProjects/XposedModifyAidRouting_New/app/src/main
 INJECTED from /home/camerash/StudioProjects/XposedModifyAidRouting_New/app/src/main/AndroidManifest.xml:1:1-26:12
 INJECTED from /home/camerash/StudioProjects/XposedModifyAidRouting_New/app/src/main/AndroidManifest.xml:1:1-26:12
 INJECTED from /home/camerash/StudioProjects/XposedModifyAidRouting_New/app/src/main/AndroidManifest.xml:1:1-26:12
-MERGED from [com.android.support:support-v4:27.1.0] /home/camerash/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.0.aar/20079230e480a1d65666850cf758f0c9/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-media-compat:27.1.0] /home/camerash/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.0.aar/2989832e58d489da22a7c364f24dc8e2/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-fragment:27.1.0] /home/camerash/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.0.aar/c102ca7b8014dccaa5bdab7eca268e47/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-ui:27.1.0] /home/camerash/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.0.aar/73b2b1e615859b0678c003d58cb4c3de/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-utils:27.1.0] /home/camerash/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.0.aar/269fd1f518b1b16807a269a26adf1c01/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-compat:27.1.0] /home/camerash/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.0.aar/d1bd9651000100bae93154c9f295be8d/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-v4:27.1.1] /home/camerash/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.1.aar/eee773e44c9a878ec72a8e197fb5e1de/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:27.1.1] /home/camerash/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/a4f1d33041f29ad3b86c3c0b9f1cfb77/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.1.1] /home/camerash/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/97b71d104d9c2642dc985ef1d26dc50c/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.1.1] /home/camerash/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/68e2599e4c44ffa4adf429ebc091f6e7/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.1.1] /home/camerash/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/195959a20a22b2c1c4de07bbc61ebac3/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.1.1] /home/camerash/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/964159d61e7669d3029d9380bc25b3ac/AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:runtime:1.1.0] /home/camerash/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/796030e8c730252719b6a3d34e711354/AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /home/camerash/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/4cd5ace1c0fe6cf822f43b76045efb60/AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /home/camerash/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/744c304ce563c866a9b259e92acee643/AndroidManifest.xml:17:1-22:12
@@ -35,18 +35,18 @@ uses-sdk
 ADDED from /home/camerash/StudioProjects/XposedModifyAidRouting_New/app/src/main/AndroidManifest.xml:6:5-8:41
 INJECTED from /home/camerash/StudioProjects/XposedModifyAidRouting_New/app/src/main/AndroidManifest.xml:6:5-8:41
 INJECTED from /home/camerash/StudioProjects/XposedModifyAidRouting_New/app/src/main/AndroidManifest.xml:6:5-8:41
-MERGED from [com.android.support:support-v4:27.1.0] /home/camerash/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.0.aar/20079230e480a1d65666850cf758f0c9/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-v4:27.1.0] /home/camerash/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.0.aar/20079230e480a1d65666850cf758f0c9/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-media-compat:27.1.0] /home/camerash/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.0.aar/2989832e58d489da22a7c364f24dc8e2/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-media-compat:27.1.0] /home/camerash/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.0.aar/2989832e58d489da22a7c364f24dc8e2/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-fragment:27.1.0] /home/camerash/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.0.aar/c102ca7b8014dccaa5bdab7eca268e47/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-fragment:27.1.0] /home/camerash/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.0.aar/c102ca7b8014dccaa5bdab7eca268e47/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:27.1.0] /home/camerash/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.0.aar/73b2b1e615859b0678c003d58cb4c3de/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:27.1.0] /home/camerash/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.0.aar/73b2b1e615859b0678c003d58cb4c3de/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:27.1.0] /home/camerash/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.0.aar/269fd1f518b1b16807a269a26adf1c01/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:27.1.0] /home/camerash/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.0.aar/269fd1f518b1b16807a269a26adf1c01/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:27.1.0] /home/camerash/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.0.aar/d1bd9651000100bae93154c9f295be8d/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:27.1.0] /home/camerash/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.0.aar/d1bd9651000100bae93154c9f295be8d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.1] /home/camerash/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.1.aar/eee773e44c9a878ec72a8e197fb5e1de/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.1] /home/camerash/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.1.aar/eee773e44c9a878ec72a8e197fb5e1de/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] /home/camerash/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/a4f1d33041f29ad3b86c3c0b9f1cfb77/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] /home/camerash/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/a4f1d33041f29ad3b86c3c0b9f1cfb77/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] /home/camerash/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/97b71d104d9c2642dc985ef1d26dc50c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] /home/camerash/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/97b71d104d9c2642dc985ef1d26dc50c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] /home/camerash/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/68e2599e4c44ffa4adf429ebc091f6e7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] /home/camerash/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/68e2599e4c44ffa4adf429ebc091f6e7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] /home/camerash/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/195959a20a22b2c1c4de07bbc61ebac3/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] /home/camerash/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/195959a20a22b2c1c4de07bbc61ebac3/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] /home/camerash/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/964159d61e7669d3029d9380bc25b3ac/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] /home/camerash/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/964159d61e7669d3029d9380bc25b3ac/AndroidManifest.xml:20:5-44
 MERGED from [android.arch.lifecycle:runtime:1.1.0] /home/camerash/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/796030e8c730252719b6a3d34e711354/AndroidManifest.xml:20:5-44
 MERGED from [android.arch.lifecycle:runtime:1.1.0] /home/camerash/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/796030e8c730252719b6a3d34e711354/AndroidManifest.xml:20:5-44
 MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /home/camerash/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/4cd5ace1c0fe6cf822f43b76045efb60/AndroidManifest.xml:20:5-44

@@ -4,7 +4,7 @@
             "outputFile": "/home/camerash/StudioProjects/XposedModifyAidRouting_New/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v21/values-v21.xml",
             "map": [
                 {
-                    "source": "/home/camerash/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.0.aar/d1bd9651000100bae93154c9f295be8d/res/values-v21/values-v21.xml",
+                    "source": "/home/camerash/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/964159d61e7669d3029d9380bc25b3ac/res/values-v21/values-v21.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,13",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4",
@@ -23,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "/home/camerash/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.0.aar/2989832e58d489da22a7c364f24dc8e2/res/values-v21/values-v21.xml",
+                    "source": "/home/camerash/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/a4f1d33041f29ad3b86c3c0b9f1cfb77/res/values-v21/values-v21.xml",
                     "from": {
                         "startLines": "2,5,8,11",
                         "startColumns": "4,4,4,4",
