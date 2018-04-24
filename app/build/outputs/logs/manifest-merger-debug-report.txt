@@ -1,0 +1,95 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/camerash/StudioProjects/XposedModifyAidRouting_New/app/src/main/AndroidManifest.xml:1:1-26:12
+INJECTED from /home/camerash/StudioProjects/XposedModifyAidRouting_New/app/src/main/AndroidManifest.xml:1:1-26:12
+INJECTED from /home/camerash/StudioProjects/XposedModifyAidRouting_New/app/src/main/AndroidManifest.xml:1:1-26:12
+INJECTED from /home/camerash/StudioProjects/XposedModifyAidRouting_New/app/src/main/AndroidManifest.xml:1:1-26:12
+MERGED from [com.android.support:support-v4:27.1.0] /home/camerash/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.0.aar/20079230e480a1d65666850cf758f0c9/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:27.1.0] /home/camerash/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.0.aar/2989832e58d489da22a7c364f24dc8e2/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.1.0] /home/camerash/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.0.aar/c102ca7b8014dccaa5bdab7eca268e47/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.1.0] /home/camerash/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.0.aar/73b2b1e615859b0678c003d58cb4c3de/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.1.0] /home/camerash/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.0.aar/269fd1f518b1b16807a269a26adf1c01/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.1.0] /home/camerash/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.0.aar/d1bd9651000100bae93154c9f295be8d/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /home/camerash/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/796030e8c730252719b6a3d34e711354/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /home/camerash/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/4cd5ace1c0fe6cf822f43b76045efb60/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /home/camerash/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/744c304ce563c866a9b259e92acee643/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.0] /home/camerash/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/94b7c27b113c558d55e1dc15679afea2/AndroidManifest.xml:17:1-22:12
+INJECTED from /home/camerash/StudioProjects/XposedModifyAidRouting_New/app/src/main/AndroidManifest.xml:1:1-26:12
+INJECTED from /home/camerash/StudioProjects/XposedModifyAidRouting_New/app/src/main/AndroidManifest.xml:1:1-26:12
+INJECTED from /home/camerash/StudioProjects/XposedModifyAidRouting_New/app/src/main/AndroidManifest.xml:1:1-26:12
+	package
+		ADDED from /home/camerash/StudioProjects/XposedModifyAidRouting_New/app/src/main/AndroidManifest.xml:2:5-47
+		INJECTED from /home/camerash/StudioProjects/XposedModifyAidRouting_New/app/src/main/AndroidManifest.xml
+		INJECTED from /home/camerash/StudioProjects/XposedModifyAidRouting_New/app/src/main/AndroidManifest.xml
+	android:versionName
+		ADDED from /home/camerash/StudioProjects/XposedModifyAidRouting_New/app/src/main/AndroidManifest.xml:4:5-30
+		INJECTED from /home/camerash/StudioProjects/XposedModifyAidRouting_New/app/src/main/AndroidManifest.xml
+		INJECTED from /home/camerash/StudioProjects/XposedModifyAidRouting_New/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/camerash/StudioProjects/XposedModifyAidRouting_New/app/src/main/AndroidManifest.xml:1:11-69
+	android:versionCode
+		ADDED from /home/camerash/StudioProjects/XposedModifyAidRouting_New/app/src/main/AndroidManifest.xml:3:5-29
+		INJECTED from /home/camerash/StudioProjects/XposedModifyAidRouting_New/app/src/main/AndroidManifest.xml
+		INJECTED from /home/camerash/StudioProjects/XposedModifyAidRouting_New/app/src/main/AndroidManifest.xml
+uses-sdk
+ADDED from /home/camerash/StudioProjects/XposedModifyAidRouting_New/app/src/main/AndroidManifest.xml:6:5-8:41
+INJECTED from /home/camerash/StudioProjects/XposedModifyAidRouting_New/app/src/main/AndroidManifest.xml:6:5-8:41
+INJECTED from /home/camerash/StudioProjects/XposedModifyAidRouting_New/app/src/main/AndroidManifest.xml:6:5-8:41
+MERGED from [com.android.support:support-v4:27.1.0] /home/camerash/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.0.aar/20079230e480a1d65666850cf758f0c9/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.0] /home/camerash/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.0.aar/20079230e480a1d65666850cf758f0c9/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.0] /home/camerash/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.0.aar/2989832e58d489da22a7c364f24dc8e2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.0] /home/camerash/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.0.aar/2989832e58d489da22a7c364f24dc8e2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.0] /home/camerash/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.0.aar/c102ca7b8014dccaa5bdab7eca268e47/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.0] /home/camerash/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.0.aar/c102ca7b8014dccaa5bdab7eca268e47/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.0] /home/camerash/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.0.aar/73b2b1e615859b0678c003d58cb4c3de/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.0] /home/camerash/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.0.aar/73b2b1e615859b0678c003d58cb4c3de/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.0] /home/camerash/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.0.aar/269fd1f518b1b16807a269a26adf1c01/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.0] /home/camerash/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.0.aar/269fd1f518b1b16807a269a26adf1c01/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.0] /home/camerash/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.0.aar/d1bd9651000100bae93154c9f295be8d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.0] /home/camerash/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.0.aar/d1bd9651000100bae93154c9f295be8d/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /home/camerash/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/796030e8c730252719b6a3d34e711354/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /home/camerash/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/796030e8c730252719b6a3d34e711354/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /home/camerash/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/4cd5ace1c0fe6cf822f43b76045efb60/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /home/camerash/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/4cd5ace1c0fe6cf822f43b76045efb60/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /home/camerash/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/744c304ce563c866a9b259e92acee643/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /home/camerash/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/744c304ce563c866a9b259e92acee643/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] /home/camerash/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/94b7c27b113c558d55e1dc15679afea2/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] /home/camerash/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/94b7c27b113c558d55e1dc15679afea2/AndroidManifest.xml:20:5-44
+INJECTED from /home/camerash/StudioProjects/XposedModifyAidRouting_New/app/src/main/AndroidManifest.xml:6:5-8:41
+INJECTED from /home/camerash/StudioProjects/XposedModifyAidRouting_New/app/src/main/AndroidManifest.xml:6:5-8:41
+	android:targetSdkVersion
+		ADDED from /home/camerash/StudioProjects/XposedModifyAidRouting_New/app/src/main/AndroidManifest.xml:8:9-38
+		INJECTED from /home/camerash/StudioProjects/XposedModifyAidRouting_New/app/src/main/AndroidManifest.xml
+		INJECTED from /home/camerash/StudioProjects/XposedModifyAidRouting_New/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from /home/camerash/StudioProjects/XposedModifyAidRouting_New/app/src/main/AndroidManifest.xml:7:9-35
+		INJECTED from /home/camerash/StudioProjects/XposedModifyAidRouting_New/app/src/main/AndroidManifest.xml
+		INJECTED from /home/camerash/StudioProjects/XposedModifyAidRouting_New/app/src/main/AndroidManifest.xml
+application
+ADDED from /home/camerash/StudioProjects/XposedModifyAidRouting_New/app/src/main/AndroidManifest.xml:10:5-24:19
+	android:label
+		ADDED from /home/camerash/StudioProjects/XposedModifyAidRouting_New/app/src/main/AndroidManifest.xml:13:9-41
+	android:icon
+		ADDED from /home/camerash/StudioProjects/XposedModifyAidRouting_New/app/src/main/AndroidManifest.xml:12:9-45
+	android:allowBackup
+		ADDED from /home/camerash/StudioProjects/XposedModifyAidRouting_New/app/src/main/AndroidManifest.xml:11:9-35
+	android:theme
+		ADDED from /home/camerash/StudioProjects/XposedModifyAidRouting_New/app/src/main/AndroidManifest.xml:14:9-40
+meta-data#xposedmodule
+ADDED from /home/camerash/StudioProjects/XposedModifyAidRouting_New/app/src/main/AndroidManifest.xml:15:9-17:36
+	android:value
+		ADDED from /home/camerash/StudioProjects/XposedModifyAidRouting_New/app/src/main/AndroidManifest.xml:17:13-33
+	android:name
+		ADDED from /home/camerash/StudioProjects/XposedModifyAidRouting_New/app/src/main/AndroidManifest.xml:16:13-40
+meta-data#xposedminversion
+ADDED from /home/camerash/StudioProjects/XposedModifyAidRouting_New/app/src/main/AndroidManifest.xml:18:9-20:36
+	android:value
+		ADDED from /home/camerash/StudioProjects/XposedModifyAidRouting_New/app/src/main/AndroidManifest.xml:20:13-33
+	android:name
+		ADDED from /home/camerash/StudioProjects/XposedModifyAidRouting_New/app/src/main/AndroidManifest.xml:19:13-44
+meta-data#xposeddescription
+ADDED from /home/camerash/StudioProjects/XposedModifyAidRouting_New/app/src/main/AndroidManifest.xml:21:9-23:136
+	android:value
+		ADDED from /home/camerash/StudioProjects/XposedModifyAidRouting_New/app/src/main/AndroidManifest.xml:23:13-133
+	android:name
+		ADDED from /home/camerash/StudioProjects/XposedModifyAidRouting_New/app/src/main/AndroidManifest.xml:22:13-45
